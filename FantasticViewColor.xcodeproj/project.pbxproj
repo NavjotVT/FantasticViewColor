@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9A0CDE9F22329E8E00D99BA4 /* FantasticViewColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0CDE9D22329E8E00D99BA4 /* FantasticViewColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0CDEA62232A9C200D99BA4 /* FantasticViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CDEA52232A9C200D99BA4 /* FantasticViewColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A0CDE9A22329E8E00D99BA4 /* FantasticViewColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FantasticViewColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0CDE9D22329E8E00D99BA4 /* FantasticViewColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FantasticViewColor.h; sourceTree = "<group>"; };
 		9A0CDE9E22329E8E00D99BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0CDEA52232A9C200D99BA4 /* FantasticViewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				9A0CDE9D22329E8E00D99BA4 /* FantasticViewColor.h */,
 				9A0CDE9E22329E8E00D99BA4 /* Info.plist */,
+				9A0CDEA52232A9C200D99BA4 /* FantasticViewColor.swift */,
 			);
 			path = FantasticViewColor;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					9A0CDE9922329E8E00D99BA4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0CDEA62232A9C200D99BA4 /* FantasticViewColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +266,11 @@
 		9A0CDEA322329E8E00D99BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4G6NXA9PX6;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -277,7 +283,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vt.FantasticViewColor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,10 +294,11 @@
 		9A0CDEA422329E8E00D99BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4G6NXA9PX6;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -302,6 +311,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vt.FantasticViewColor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

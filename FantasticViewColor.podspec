@@ -11,7 +11,7 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Navjot' => 'navjot.sharma@vtnetzwelt.com' }
   s.source           = { :git => 'https://github.com/NavjotVT/FantasticViewColor.git', :tag => s.version.to_s }
- 
+	 swift_version = '4.2'
   s.ios.deployment_target = '10.0'
   s.source_files = 'FantasticViewColor/*.swift'
  
